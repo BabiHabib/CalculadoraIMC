@@ -10,21 +10,23 @@
 
     <EditText
         android:id="@+id/edittext_peso"
-        android:inputType="numberDecimal"
-        android:maxLength="6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu peso (em quilogramas)"/>
+        android:hint="Digite seu peso (em quilogramas)"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/edittext_altura"
-        android:layout_below="@+id/edittext_peso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_peso"
         android:layout_marginTop="16dp"
+        android:hint="Digite sua altura (em metros)"
         android:inputType="numberDecimal"
         android:maxLength="6"
-        android:hint="Digite sua altura (em metros)"/>
+        android:minHeight="48dp" />
 
 
     <Button
